@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/AutoTrans/autotrans_ws/devel
+
+Name: payload_mpc_controller
+Description: Description of payload_mpc_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

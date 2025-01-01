@@ -1,0 +1,10 @@
+{
+    "ros.distro": "noetic",
+    "files.associations": {
+        "*.cpp": "cpp",
+        "random": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "istream": "cpp"
+    }
+}
