@@ -67,7 +67,7 @@ set(traj_utils_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(traj_utils_SOURCE_PREFIX /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils)
+  set(traj_utils_SOURCE_PREFIX /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/planner/traj_utils)
   set(traj_utils_DEVEL_PREFIX /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel)
   set(traj_utils_INSTALL_PREFIX "")
   set(traj_utils_PREFIX ${traj_utils_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/include " STREQ
         message(FATAL_ERROR "Project 'traj_utils' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'traj_utils' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'traj_utils' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/planner/traj_utils/${idir}'.  ${_report}")
     endif()
     _list_append_unique(traj_utils_INCLUDE_DIRS ${include})
   endforeach()
