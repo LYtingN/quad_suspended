@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/map_generator/map_generator"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/map_generator/map_generator.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/map_generator/map_generator"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/map_generator/map_generator.pdb"
   "CMakeFiles/map_generator.dir/src/map_generator.cpp.o"
 )
 

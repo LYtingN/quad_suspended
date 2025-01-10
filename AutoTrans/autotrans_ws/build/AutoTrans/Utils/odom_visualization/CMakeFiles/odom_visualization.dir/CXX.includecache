@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/AutoTrans/autotrans_ws/devel/include/quadrotor_msgs/PositionCommand.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/include/quadrotor_msgs/PositionCommand.h
 string
 -
 vector
@@ -32,7 +32,11 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/CameraPoseVisualization.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/CameraPoseVisualization.cpp
+CameraPoseVisualization.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/CameraPoseVisualization.h
+
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/CameraPoseVisualization.h
 ros/ros.h
 -
 std_msgs/ColorRGBA.h
@@ -46,43 +50,43 @@ Eigen/Dense
 Eigen/Geometry
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/odom_visualization.cpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/odom_visualization.cpp
 iostream
 -
 string
 -
 ros/ros.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/ros/ros.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/ros/ros.h
 tf/transform_broadcaster.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/tf/transform_broadcaster.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/tf/transform_broadcaster.h
 nav_msgs/Odometry.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/nav_msgs/Odometry.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/nav_msgs/Odometry.h
 geometry_msgs/PoseWithCovarianceStamped.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/geometry_msgs/PoseWithCovarianceStamped.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/geometry_msgs/PoseWithCovarianceStamped.h
 geometry_msgs/PoseStamped.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/geometry_msgs/PoseStamped.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/geometry_msgs/PoseStamped.h
 nav_msgs/Path.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/nav_msgs/Path.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/nav_msgs/Path.h
 sensor_msgs/Range.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/sensor_msgs/Range.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/sensor_msgs/Range.h
 visualization_msgs/Marker.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/visualization_msgs/Marker.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/visualization_msgs/Marker.h
 visualization_msgs/MarkerArray.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/visualization_msgs/MarkerArray.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/visualization_msgs/MarkerArray.h
 armadillo
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/armadillo
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/armadillo
 pose_utils.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/pose_utils.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/pose_utils.h
 quadrotor_msgs/PositionCommand.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/quadrotor_msgs/PositionCommand.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/quadrotor_msgs/PositionCommand.h
 CameraPoseVisualization.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/CameraPoseVisualization.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/odom_visualization/src/CameraPoseVisualization.h
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/include/pose_utils.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/include/pose_utils.h
 iostream
 -
 armadillo
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/include/armadillo
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/include/armadillo
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

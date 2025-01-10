@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages/traj_utils/msg/_DataDisp.py"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages/traj_utils/msg/__init__.py"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages/traj_utils/msg/_DataDisp.py"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages/traj_utils/msg/__init__.py"
   "CMakeFiles/traj_utils_generate_messages_py"
 )
 

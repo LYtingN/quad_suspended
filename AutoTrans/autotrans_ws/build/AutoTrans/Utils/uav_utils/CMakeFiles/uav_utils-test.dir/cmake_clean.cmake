@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/uav_utils/uav_utils-test"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/uav_utils/uav_utils-test.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/uav_utils/uav_utils-test"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/uav_utils/uav_utils-test.pdb"
   "CMakeFiles/uav_utils-test.dir/src/uav_utils_test.cpp.o"
 )
 

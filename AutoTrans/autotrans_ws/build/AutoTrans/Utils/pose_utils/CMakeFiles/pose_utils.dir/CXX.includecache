@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/include/pose_utils.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/include/pose_utils.h
 iostream
 -
 armadillo
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/include/armadillo
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/include/armadillo
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/src/pose_utils.cpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/src/pose_utils.cpp
 pose_utils.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/src/pose_utils.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/src/pose_utils.h
 

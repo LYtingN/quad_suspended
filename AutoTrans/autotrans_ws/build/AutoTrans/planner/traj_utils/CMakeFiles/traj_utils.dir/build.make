@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Include any dependencies generated for this target.
 include AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/depend.make
@@ -58,17 +58,17 @@ include AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/progress.make
 include AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/flags.make
 
 AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.o: AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/flags.make
-AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.o: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.o"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traj_utils.dir/src/main.cpp.o -c /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/src/main.cpp
+AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.o: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.o"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traj_utils.dir/src/main.cpp.o -c /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/src/main.cpp
 
 AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traj_utils.dir/src/main.cpp.i"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/src/main.cpp > CMakeFiles/traj_utils.dir/src/main.cpp.i
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/src/main.cpp > CMakeFiles/traj_utils.dir/src/main.cpp.i
 
 AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traj_utils.dir/src/main.cpp.s"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/src/main.cpp -o CMakeFiles/traj_utils.dir/src/main.cpp.s
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils/src/main.cpp -o CMakeFiles/traj_utils.dir/src/main.cpp.s
 
 # Object files for target traj_utils
 traj_utils_OBJECTS = \
@@ -77,39 +77,39 @@ traj_utils_OBJECTS = \
 # External object files for target traj_utils
 traj_utils_EXTERNAL_OBJECTS =
 
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.o
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/build.make
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/libroscpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/librosconsole.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/librostime.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/traj_utils.dir/link.txt --verbose=$(VERBOSE)
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/src/main.cpp.o
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/build.make
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/libroscpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/librosconsole.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/librostime.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so: AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/traj_utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/build: /home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so
+AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/build: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_utils.so
 
 .PHONY : AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/build
 
 AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && $(CMAKE_COMMAND) -P CMakeFiles/traj_utils.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils && $(CMAKE_COMMAND) -P CMakeFiles/traj_utils.dir/cmake_clean.cmake
 .PHONY : AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/clean
 
 AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_utils /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/planner/traj_utils/CMakeFiles/traj_utils.dir/depend
 

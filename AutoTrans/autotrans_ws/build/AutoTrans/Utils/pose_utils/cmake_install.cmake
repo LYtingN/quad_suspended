@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils
+# Install script for directory: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/AutoTrans/autotrans_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/pose_utils/catkin_generated/installspace/pose_utils.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/pose_utils/catkin_generated/installspace/pose_utils.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils/cmake" TYPE FILE FILES
-    "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig.cmake"
-    "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig-version.cmake"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig.cmake"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/pose_utils/package.xml")
 endif()
 

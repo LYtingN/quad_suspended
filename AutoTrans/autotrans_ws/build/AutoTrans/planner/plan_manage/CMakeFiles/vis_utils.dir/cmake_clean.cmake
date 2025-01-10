@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libvis_utils.pdb"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libvis_utils.so"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libvis_utils.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libvis_utils.so"
   "CMakeFiles/vis_utils.dir/src/planning_visualization.cpp.o"
 )
 

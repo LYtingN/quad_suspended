@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Utility rule file for pcl_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ AutoTrans/uav_simulator/map_generator/CMakeFiles/pcl_msgs_generate_messages_node
 .PHONY : AutoTrans/uav_simulator/map_generator/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build
 
 AutoTrans/uav_simulator/map_generator/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/map_generator && $(CMAKE_COMMAND) -P CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/map_generator && $(CMAKE_COMMAND) -P CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : AutoTrans/uav_simulator/map_generator/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/clean
 
 AutoTrans/uav_simulator/map_generator/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/map_generator /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/map_generator /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/map_generator/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/map_generator /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/map_generator /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/map_generator/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/uav_simulator/map_generator/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/depend
 

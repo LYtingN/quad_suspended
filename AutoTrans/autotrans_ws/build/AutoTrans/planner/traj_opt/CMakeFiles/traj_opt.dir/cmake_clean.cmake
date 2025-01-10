@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_opt.pdb"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libtraj_opt.so"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_opt.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libtraj_opt.so"
   "CMakeFiles/traj_opt.dir/src/poly_traj_optimizer.cpp.o"
 )
 

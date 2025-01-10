@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ AutoTrans/uav_simulator/uav_simulator/CMakeFiles/_catkin_empty_exported_target.d
 .PHONY : AutoTrans/uav_simulator/uav_simulator/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 AutoTrans/uav_simulator/uav_simulator/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/uav_simulator && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/uav_simulator && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : AutoTrans/uav_simulator/uav_simulator/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 AutoTrans/uav_simulator/uav_simulator/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/uav_simulator /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/uav_simulator /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/uav_simulator/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/uav_simulator /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/uav_simulator /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/uav_simulator/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/uav_simulator/uav_simulator/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

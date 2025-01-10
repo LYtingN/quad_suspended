@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/map_generator/random_forest"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/map_generator/random_forest.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/map_generator/random_forest"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/map_generator/random_forest.pdb"
   "CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/AutoTrans/autotrans_ws/devel
+prefix=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel
 
 Name: odom_visualization
 Description: Description of odom_visualization

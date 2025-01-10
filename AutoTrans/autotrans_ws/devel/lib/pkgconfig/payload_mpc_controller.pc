@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/AutoTrans/autotrans_ws/devel
+prefix=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel
 
 Name: payload_mpc_controller
 Description: Description of payload_mpc_controller

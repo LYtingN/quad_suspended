@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rviz_plugins"
-PROJECT_SPACE_DIR = "/home/ubuntu/AutoTrans/autotrans_ws/install"
+PROJECT_SPACE_DIR = "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/install"
 PROJECT_VERSION = "0.1.0"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libpose_utils.pdb"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libpose_utils.so"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libpose_utils.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libpose_utils.so"
   "CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o"
 )
 

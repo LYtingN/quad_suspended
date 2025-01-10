@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Include any dependencies generated for this target.
 include AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/depend.make
@@ -58,56 +58,56 @@ include AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/progress.m
 include AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/flags.make
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/flags.make
-AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/ces_randommap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o -c /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/ces_randommap.cpp
+AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/ces_randommap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o -c /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/ces_randommap.cpp
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.i"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/ces_randommap.cpp > CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.i
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/ces_randommap.cpp > CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.i
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.s"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/ces_randommap.cpp -o CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.s
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/ces_randommap.cpp -o CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.s
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.o: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/flags.make
-AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.o: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/maps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.o"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mockamap_node.dir/src/maps.cpp.o -c /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/maps.cpp
+AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.o: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/maps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.o"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mockamap_node.dir/src/maps.cpp.o -c /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/maps.cpp
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mockamap_node.dir/src/maps.cpp.i"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/maps.cpp > CMakeFiles/mockamap_node.dir/src/maps.cpp.i
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/maps.cpp > CMakeFiles/mockamap_node.dir/src/maps.cpp.i
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mockamap_node.dir/src/maps.cpp.s"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/maps.cpp -o CMakeFiles/mockamap_node.dir/src/maps.cpp.s
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/maps.cpp -o CMakeFiles/mockamap_node.dir/src/maps.cpp.s
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/flags.make
-AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/mockamap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o -c /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/mockamap.cpp
+AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/mockamap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o -c /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/mockamap.cpp
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mockamap_node.dir/src/mockamap.cpp.i"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/mockamap.cpp > CMakeFiles/mockamap_node.dir/src/mockamap.cpp.i
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/mockamap.cpp > CMakeFiles/mockamap_node.dir/src/mockamap.cpp.i
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mockamap_node.dir/src/mockamap.cpp.s"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/mockamap.cpp -o CMakeFiles/mockamap_node.dir/src/mockamap.cpp.s
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/mockamap.cpp -o CMakeFiles/mockamap_node.dir/src/mockamap.cpp.s
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/flags.make
-AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/perlinnoise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o -c /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/perlinnoise.cpp
+AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/perlinnoise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o -c /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/perlinnoise.cpp
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.i"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/perlinnoise.cpp > CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.i
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/perlinnoise.cpp > CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.i
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.s"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/perlinnoise.cpp -o CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.s
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap/src/perlinnoise.cpp -o CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.s
 
 # Object files for target mockamap_node
 mockamap_node_OBJECTS = \
@@ -119,141 +119,141 @@ mockamap_node_OBJECTS = \
 # External object files for target mockamap_node
 mockamap_node_EXTERNAL_OBJECTS =
 
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.o
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/build.make
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libpcl_ros_filter.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libpcl_ros_tf.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_search.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_features.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libqhull.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libnodeletlib.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libbondcpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosbag.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosbag_storage.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libclass_loader.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libroslib.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librospack.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libroslz4.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libtopic_tools.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libtf.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libactionlib.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libtf2.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_common.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_io.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libfreetype.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libz.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libjpeg.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpng.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libtiff.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libexpat.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libroscpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosconsole.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librostime.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mockamap_node.dir/link.txt --verbose=$(VERBOSE)
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/maps.cpp.o
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/build.make
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libpcl_ros_filter.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libpcl_ros_tf.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libqhull.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libnodeletlib.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libbondcpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosbag.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosbag_storage.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libclass_loader.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libroslib.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librospack.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libroslz4.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libtopic_tools.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libtf.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libtf2_ros.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libactionlib.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libmessage_filters.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libtf2.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libfreetype.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libz.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libjpeg.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpng.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libtiff.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libexpat.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libroscpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosconsole.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/librostime.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node: AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mockamap_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/build: /home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node
+AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/build: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node
 
 .PHONY : AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/build
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && $(CMAKE_COMMAND) -P CMakeFiles/mockamap_node.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap && $(CMAKE_COMMAND) -P CMakeFiles/mockamap_node.dir/cmake_clean.cmake
 .PHONY : AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/clean
 
 AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/mockamap /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/uav_simulator/mockamap/CMakeFiles/mockamap_node.dir/depend
 

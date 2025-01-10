@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/local_sensing_node/pcl_render_node"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/local_sensing_node/pcl_render_node.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/local_sensing_node/pcl_render_node"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/local_sensing_node/pcl_render_node.pdb"
   "CMakeFiles/pcl_render_node.dir/src/pointcloud_render_node.cpp.o"
 )
 

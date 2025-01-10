@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/payload_planner/payload_planner_node"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/payload_planner/payload_planner_node.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/payload_planner/payload_planner_node"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/payload_planner/payload_planner_node.pdb"
   "CMakeFiles/payload_planner_node.dir/src/payload_planner_node.cpp.o"
   "CMakeFiles/payload_planner_node.dir/src/planner_manager.cpp.o"
   "CMakeFiles/payload_planner_node.dir/src/replan_fsm.cpp.o"

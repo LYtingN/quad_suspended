@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs
+# Install script for directory: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/AutoTrans/autotrans_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,69 +39,69 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadrotor_msgs/msg" TYPE FILE FILES
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/AuxCommand.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Corrections.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Gains.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/OutputData.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PositionCommand.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PPROutputData.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Serial.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/SO3Command.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/StatusData.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/TRPYCommand.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Odometry.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PolynomialTrajectory.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PolynomialTraj.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PolynomialMatrix.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/TakeoffLand.msg"
-    "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Px4ctrlDebug.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/AuxCommand.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Corrections.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Gains.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/OutputData.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PositionCommand.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PPROutputData.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Serial.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/SO3Command.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/StatusData.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/TRPYCommand.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Odometry.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PolynomialTrajectory.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PolynomialTraj.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/PolynomialMatrix.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/TakeoffLand.msg"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/msg/Px4ctrlDebug.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadrotor_msgs/cmake" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadrotor_msgs/cmake" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/AutoTrans/autotrans_ws/devel/include/quadrotor_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/include/quadrotor_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubuntu/AutoTrans/autotrans_ws/devel/share/roseus/ros/quadrotor_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/share/roseus/ros/quadrotor_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubuntu/AutoTrans/autotrans_ws/devel/share/common-lisp/ros/quadrotor_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/share/common-lisp/ros/quadrotor_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubuntu/AutoTrans/autotrans_ws/devel/share/gennodejs/ros/quadrotor_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/share/gennodejs/ros/quadrotor_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages/quadrotor_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages/quadrotor_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages/quadrotor_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages/quadrotor_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadrotor_msgs/cmake" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadrotor_msgs/cmake" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadrotor_msgs/cmake" TYPE FILE FILES
-    "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgsConfig.cmake"
-    "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgsConfig-version.cmake"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgsConfig.cmake"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/quadrotor_msgs/catkin_generated/installspace/quadrotor_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadrotor_msgs" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadrotor_msgs" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/quadrotor_msgs/package.xml")
 endif()
 

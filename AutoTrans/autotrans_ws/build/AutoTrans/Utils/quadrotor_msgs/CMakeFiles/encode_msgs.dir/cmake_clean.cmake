@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libencode_msgs.pdb"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libencode_msgs.so"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libencode_msgs.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libencode_msgs.so"
   "CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/payload_mpc_controller/mpc_controller_node"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/payload_mpc_controller/mpc_controller_node.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/payload_mpc_controller/mpc_controller_node"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/payload_mpc_controller/mpc_controller_node.pdb"
   "CMakeFiles/mpc_controller_node.dir/externals/qpoases/SRC/Bounds.cpp.o"
   "CMakeFiles/mpc_controller_node.dir/externals/qpoases/SRC/Constraints.cpp.o"
   "CMakeFiles/mpc_controller_node.dir/externals/qpoases/SRC/CyclingManager.cpp.o"

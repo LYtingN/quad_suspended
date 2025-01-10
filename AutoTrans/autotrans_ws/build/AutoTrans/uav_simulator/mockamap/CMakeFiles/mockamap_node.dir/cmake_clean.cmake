@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/mockamap/mockamap_node.pdb"
   "CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o"
   "CMakeFiles/mockamap_node.dir/src/maps.cpp.o"
   "CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_py.
 
@@ -63,10 +63,10 @@ AutoTrans/uav_simulator/local_sensing/CMakeFiles/dynamic_reconfigure_generate_me
 .PHONY : AutoTrans/uav_simulator/local_sensing/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 
 AutoTrans/uav_simulator/local_sensing/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/local_sensing && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/local_sensing && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : AutoTrans/uav_simulator/local_sensing/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 
 AutoTrans/uav_simulator/local_sensing/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/local_sensing /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/local_sensing /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/local_sensing/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/local_sensing /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/local_sensing /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/local_sensing/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/uav_simulator/local_sensing/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
 

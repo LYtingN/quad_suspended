@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/plan_manage/include/plan_manage/planning_visualization.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/plan_manage/include/plan_manage/planning_visualization.h
 eigen3/Eigen/Eigen
 -
 algorithm
@@ -30,11 +30,11 @@ fstream
 optimizer/plan_container.hpp
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/plan_manage/src/planning_visualization.cpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/plan_manage/src/planning_visualization.cpp
 plan_manage/planning_visualization.h
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_opt/include/optimizer/plan_container.hpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_opt/include/optimizer/plan_container.hpp
 Eigen/Eigen
 -
 vector
@@ -44,9 +44,9 @@ ros/ros.h
 optimizer/poly_traj_utils.hpp
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_opt/include/optimizer/poly_traj_utils.hpp
 root_finder.hpp
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_opt/include/optimizer/root_finder.hpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_opt/include/optimizer/root_finder.hpp
 iostream
 -
 cmath
@@ -56,7 +56,7 @@ vector
 Eigen/Eigen
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_opt/include/optimizer/root_finder.hpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/traj_opt/include/optimizer/root_finder.hpp
 cfloat
 -
 cmath

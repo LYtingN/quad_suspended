@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/share/common-lisp/ros/traj_utils/msg/DataDisp.lisp"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/share/common-lisp/ros/traj_utils/msg/DataDisp.lisp"
   "CMakeFiles/traj_utils_generate_messages_lisp"
 )
 

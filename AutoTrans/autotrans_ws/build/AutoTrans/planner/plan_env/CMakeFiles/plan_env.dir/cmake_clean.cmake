@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libplan_env.pdb"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libplan_env.so"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libplan_env.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libplan_env.so"
   "CMakeFiles/plan_env.dir/src/grid_map.cpp.o"
   "CMakeFiles/plan_env.dir/src/raycast.cpp.o"
 )

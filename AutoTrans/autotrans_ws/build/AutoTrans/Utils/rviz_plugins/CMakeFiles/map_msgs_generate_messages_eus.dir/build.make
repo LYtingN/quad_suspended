@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Utility rule file for map_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ AutoTrans/Utils/rviz_plugins/CMakeFiles/map_msgs_generate_messages_eus.dir/build
 .PHONY : AutoTrans/Utils/rviz_plugins/CMakeFiles/map_msgs_generate_messages_eus.dir/build
 
 AutoTrans/Utils/rviz_plugins/CMakeFiles/map_msgs_generate_messages_eus.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/rviz_plugins && $(CMAKE_COMMAND) -P CMakeFiles/map_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/rviz_plugins && $(CMAKE_COMMAND) -P CMakeFiles/map_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : AutoTrans/Utils/rviz_plugins/CMakeFiles/map_msgs_generate_messages_eus.dir/clean
 
 AutoTrans/Utils/rviz_plugins/CMakeFiles/map_msgs_generate_messages_eus.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/rviz_plugins /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/rviz_plugins /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/rviz_plugins/CMakeFiles/map_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/rviz_plugins /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/rviz_plugins /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/rviz_plugins/CMakeFiles/map_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/Utils/rviz_plugins/CMakeFiles/map_msgs_generate_messages_eus.dir/depend
 

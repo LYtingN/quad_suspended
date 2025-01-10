@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/map_generator/include/map_generator/map_generator.hpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/map_generator/include/map_generator/map_generator.hpp
 pcl/point_cloud.h
 -
 pcl/point_types.h
@@ -36,9 +36,9 @@ Eigen/Eigen
 random
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/map_generator/src/map_generator.cpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/map_generator/src/map_generator.cpp
 map_generator/map_generator.hpp
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/map_generator/src/map_generator/map_generator.hpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/map_generator/src/map_generator/map_generator.hpp
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

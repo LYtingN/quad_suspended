@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor
+# Install script for directory: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/AutoTrans/autotrans_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor/catkin_generated/installspace/so3_quadrotor.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor/catkin_generated/installspace/so3_quadrotor.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so3_quadrotor/cmake" TYPE FILE FILES
-    "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor/catkin_generated/installspace/so3_quadrotorConfig.cmake"
-    "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor/catkin_generated/installspace/so3_quadrotorConfig-version.cmake"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor/catkin_generated/installspace/so3_quadrotorConfig.cmake"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor/catkin_generated/installspace/so3_quadrotorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so3_quadrotor" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so3_quadrotor" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/package.xml")
 endif()
 

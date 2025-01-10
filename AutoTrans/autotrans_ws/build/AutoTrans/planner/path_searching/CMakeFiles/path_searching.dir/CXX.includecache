@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/include/path_searching/dyn_a_star.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/include/path_searching/dyn_a_star.h
 iostream
 -
 ros/ros.h
@@ -20,7 +20,7 @@ plan_env/grid_map.h
 queue
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/include/path_searching/kinodynamic_astar.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/include/path_searching/kinodynamic_astar.h
 ros/console.h
 -
 ros/ros.h
@@ -42,13 +42,13 @@ unordered_map
 utility
 -
 plan_env/grid_map.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/include/path_searching/plan_env/grid_map.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/include/path_searching/plan_env/grid_map.h
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/src/dyn_a_star.cpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/src/dyn_a_star.cpp
 path_searching/dyn_a_star.h
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/src/path_searching/dyn_a_star.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/src/path_searching/dyn_a_star.h
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/src/kinodynamic_astar.cpp
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/path_searching/src/kinodynamic_astar.cpp
 path_searching/kinodynamic_astar.h
 -
 sstream
@@ -56,7 +56,7 @@ sstream
 plan_env/grid_map.h
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/plan_env/include/plan_env/grid_map.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/plan_env/include/plan_env/grid_map.h
 Eigen/Eigen
 -
 Eigen/StdVector
@@ -96,7 +96,7 @@ message_filters/time_synchronizer.h
 plan_env/raycast.h
 -
 
-/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/planner/plan_env/include/plan_env/raycast.h
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/planner/plan_env/include/plan_env/raycast.h
 Eigen/Eigen
 -
 vector

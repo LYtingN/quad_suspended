@@ -7,10 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/AutoTrans/autotrans_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ubuntu/AutoTrans/autotrans_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/ubuntu/AutoTrans/autotrans_ws/build'
-export PYTHONPATH="/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/ubuntu/AutoTrans/autotrans_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/ubuntu/AutoTrans/autotrans_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build'
+export PYTHONPATH="/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/ubuntu/AutoTrans/autotrans_ws/src:/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src:$ROS_PACKAGE_PATH"

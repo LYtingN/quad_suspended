@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/AutoTrans/autotrans_ws/devel
+prefix=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel
 
 Name: local_sensing_node
 Description: Description of local_sensing_node

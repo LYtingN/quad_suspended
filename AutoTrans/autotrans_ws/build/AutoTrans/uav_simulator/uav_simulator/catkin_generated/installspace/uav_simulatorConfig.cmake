@@ -67,14 +67,14 @@ set(uav_simulator_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(uav_simulator_SOURCE_PREFIX /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/uav_simulator)
-  set(uav_simulator_DEVEL_PREFIX /home/ubuntu/AutoTrans/autotrans_ws/devel)
+  set(uav_simulator_SOURCE_PREFIX /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/uav_simulator)
+  set(uav_simulator_DEVEL_PREFIX /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel)
   set(uav_simulator_INSTALL_PREFIX "")
   set(uav_simulator_PREFIX ${uav_simulator_DEVEL_PREFIX})
 else()
   set(uav_simulator_SOURCE_PREFIX "")
   set(uav_simulator_DEVEL_PREFIX "")
-  set(uav_simulator_INSTALL_PREFIX /home/ubuntu/AutoTrans/autotrans_ws/install)
+  set(uav_simulator_INSTALL_PREFIX /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/install)
   set(uav_simulator_PREFIX ${uav_simulator_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu/AutoTrans/autotrans_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

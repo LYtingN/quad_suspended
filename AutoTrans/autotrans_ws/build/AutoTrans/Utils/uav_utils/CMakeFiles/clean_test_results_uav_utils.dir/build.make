@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Utility rule file for clean_test_results_uav_utils.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
 include AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/progress.make
 
 AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ubuntu/AutoTrans/autotrans_ws/build/test_results/uav_utils
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ubuntu/AutoTrans/autotrans_ws/build/test_results/uav_utils
 
 clean_test_results_uav_utils: AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils
 clean_test_results_uav_utils: AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/build.make
@@ -67,10 +67,10 @@ AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/build: cle
 .PHONY : AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/build
 
 AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_uav_utils.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_uav_utils.dir/cmake_clean.cmake
 .PHONY : AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/clean
 
 AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/uav_utils /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/uav_utils /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/depend
 

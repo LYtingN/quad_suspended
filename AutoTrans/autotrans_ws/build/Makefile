@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles /home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2261,19 +2261,6 @@ mpc_controller_node/fast:
 .PHONY : mpc_controller_node/fast
 
 #=============================================================================
-# Target rules for targets named mpc_solver
-
-# Build rule for target.
-mpc_solver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mpc_solver
-.PHONY : mpc_solver
-
-# fast build rule for target.
-mpc_solver/fast:
-	$(MAKE) -f AutoTrans/controller/payload_mpc_controller/CMakeFiles/mpc_solver.dir/build.make AutoTrans/controller/payload_mpc_controller/CMakeFiles/mpc_solver.dir/build
-.PHONY : mpc_solver/fast
-
-#=============================================================================
 # Target rules for targets named rviz_generate_messages_eus
 
 # Build rule for target.
@@ -2590,7 +2577,6 @@ help:
 	@echo "... clean_test_results_uav_utils"
 	@echo "... run_tests_uav_utils_gtest"
 	@echo "... mpc_controller_node"
-	@echo "... mpc_solver"
 	@echo "... rviz_generate_messages_eus"
 	@echo "... rviz_plugins"
 	@echo "... rviz_generate_messages_nodejs"

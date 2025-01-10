@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/odom_visualization/odom_visualization"
-  "/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/odom_visualization/odom_visualization.pdb"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/odom_visualization/odom_visualization"
+  "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/odom_visualization/odom_visualization.pdb"
   "CMakeFiles/odom_visualization.dir/src/CameraPoseVisualization.cpp.o"
   "CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o"
 )

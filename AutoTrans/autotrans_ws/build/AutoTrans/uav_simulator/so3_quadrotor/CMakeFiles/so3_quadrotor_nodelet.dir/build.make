@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Include any dependencies generated for this target.
 include AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/depend.make
@@ -58,17 +58,17 @@ include AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.d
 include AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/flags.make
 
 AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o: AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/flags.make
-AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o -c /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp
+AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o -c /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp
 
 AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.i"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp > CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.i
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp > CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.i
 
 AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.s"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp -o CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.s
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp -o CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.s
 
 # Object files for target so3_quadrotor_nodelet
 so3_quadrotor_nodelet_OBJECTS = \
@@ -77,57 +77,57 @@ so3_quadrotor_nodelet_OBJECTS = \
 # External object files for target so3_quadrotor_nodelet
 so3_quadrotor_nodelet_EXTERNAL_OBJECTS =
 
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/build.make
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libencode_msgs.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libdecode_msgs.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libnodeletlib.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libbondcpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libroslib.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librospack.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libtf.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libactionlib.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libroscpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libtf2.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librosconsole.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librostime.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so"
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/so3_quadrotor_nodelet.dir/link.txt --verbose=$(VERBOSE)
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/src/so3_quadrotor_nodelet.cpp.o
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/build.make
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libencode_msgs.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libdecode_msgs.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libnodeletlib.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libbondcpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libroslib.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librospack.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libtf.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libactionlib.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libroscpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libtf2.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librosconsole.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/librostime.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so: AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so"
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/so3_quadrotor_nodelet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/build: /home/ubuntu/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so
+AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/build: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/lib/libso3_quadrotor_nodelet.so
 
 .PHONY : AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/build
 
 AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && $(CMAKE_COMMAND) -P CMakeFiles/so3_quadrotor_nodelet.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor && $(CMAKE_COMMAND) -P CMakeFiles/so3_quadrotor_nodelet.dir/cmake_clean.cmake
 .PHONY : AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/clean
 
 AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/uav_simulator/so3_quadrotor /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/uav_simulator/so3_quadrotor/CMakeFiles/so3_quadrotor_nodelet.dir/depend
 

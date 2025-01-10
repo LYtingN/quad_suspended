@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/AutoTrans/autotrans_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/AutoTrans/autotrans_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build
 
 # Utility rule file for run_tests_uav_utils_gtest.
 
@@ -63,10 +63,10 @@ AutoTrans/Utils/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/build: run_te
 .PHONY : AutoTrans/Utils/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/build
 
 AutoTrans/Utils/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/clean:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_uav_utils_gtest.dir/cmake_clean.cmake
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_uav_utils_gtest.dir/cmake_clean.cmake
 .PHONY : AutoTrans/Utils/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/clean
 
 AutoTrans/Utils/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/depend:
-	cd /home/ubuntu/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/AutoTrans/autotrans_ws/src /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/Utils/uav_utils /home/ubuntu/AutoTrans/autotrans_ws/build /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils /home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/Utils/uav_utils /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/Utils/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AutoTrans/Utils/uav_utils/CMakeFiles/run_tests_uav_utils_gtest.dir/depend
 

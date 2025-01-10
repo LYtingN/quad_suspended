@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/controller/payload_mpc_controller
+# Install script for directory: /home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/controller/payload_mpc_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/AutoTrans/autotrans_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/controller/payload_mpc_controller/catkin_generated/installspace/payload_mpc_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/controller/payload_mpc_controller/catkin_generated/installspace/payload_mpc_controller.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/payload_mpc_controller/cmake" TYPE FILE FILES
-    "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/controller/payload_mpc_controller/catkin_generated/installspace/payload_mpc_controllerConfig.cmake"
-    "/home/ubuntu/AutoTrans/autotrans_ws/build/AutoTrans/controller/payload_mpc_controller/catkin_generated/installspace/payload_mpc_controllerConfig-version.cmake"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/controller/payload_mpc_controller/catkin_generated/installspace/payload_mpc_controllerConfig.cmake"
+    "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/build/AutoTrans/controller/payload_mpc_controller/catkin_generated/installspace/payload_mpc_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/payload_mpc_controller" TYPE FILE FILES "/home/ubuntu/AutoTrans/autotrans_ws/src/AutoTrans/controller/payload_mpc_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/payload_mpc_controller" TYPE FILE FILES "/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/src/AutoTrans/controller/payload_mpc_controller/package.xml")
 endif()
 

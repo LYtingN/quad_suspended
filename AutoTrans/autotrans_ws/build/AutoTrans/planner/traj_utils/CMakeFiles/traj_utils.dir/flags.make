@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++17 -O3 -Wall -g -march=native -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"traj_utils\" -Dtraj_utils_EXPORTS
 
-CXX_INCLUDES = -I/home/ubuntu/AutoTrans/autotrans_ws/devel/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/ubuntu/quad_suspended/AutoTrans/autotrans_ws/devel/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 
